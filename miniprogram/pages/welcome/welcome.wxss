@@ -1,0 +1,23 @@
+/* miniprogram/pages/welcome.wxss */
+.welcome_view_1{
+  font-size: 140rpx;
+  text-align:center;
+}
+.welcome_view_2{
+  text-align: center;
+}
+.welcome_image{
+  width: 500rpx;
+  height: 400rpx;
+}
+.welcome-button{ 
+  width: 800rpx; 
+  padding:8rpx;  
+  background-color: #428bca;  
+  color: #fff;   
+  text-align: center;  
+  vertical-align: middle;  
+  border: 1rpx solid transparent;  
+  border:solid 10rpx #4d4e53;
+  border-radius:10rpx 40rpx 40rpx 10rpx;
+}

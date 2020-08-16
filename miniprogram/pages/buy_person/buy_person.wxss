@@ -1,0 +1,19 @@
+/* miniprogram/pages/buy_person.wxss */
+.buy_person_con{
+  text-align: center;
+}
+.bubbleTail{
+  position:relative;
+  top: 50rpx;
+  left: 120rpx;
+  width:19px;height:17px;border-width:0;border-style:solid;border-color:transparent;margin-right:-1px;border-bottom-width:15px;border-bottom-color:currentColor;border-radius:0 0 0 34px;color:#dddddd;}
+.bubble{
+  background-color: #dddddd;
+  width: 450rpx;
+  height: 100rpx;
+  border-radius: 15rpx;
+  display: inline-block;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 100rpx;
+}

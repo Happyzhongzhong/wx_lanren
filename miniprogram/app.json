@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/shop/shop",
+    "pages/detail/detail",
+    "pages/buy/buy",
+    "pages/buy_person/buy_person",
+    "pages/buy_person_order/buy_person_order"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

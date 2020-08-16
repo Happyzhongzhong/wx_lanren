@@ -1,0 +1,43 @@
+
+.detail_container{
+  text-align: center;
+}
+.detail_image{
+  width: 600rpx;
+  height: 400rpx;
+  border-radius: 40rpx;
+}
+.detail_wenzi1{
+  font-size: 40rpx;
+  display: inline-block;
+  width: 250rpx;
+  font-family:‘Times New Roman’, Times, serif;
+  border-bottom: 5rpx solid #00AAAA;
+}
+.detail_detail{
+  background-color: white;
+  width: 600rpx;
+  height: 480rpx;
+  border-radius: 30rpx;
+  display: inline-block;
+  text-align: left;
+}
+.detail_detail_wenzi1{
+  width: 450rpx;
+  font-family:cursive;
+  color:#353535;
+  font-size: 38rpx;
+  position: relative;
+  left: 50rpx;
+  border-bottom: 3rpx solid #DDDDDD;
+}
+.detail_detail_wenzi2{
+  font-family:cursive;
+  color:gray;
+  width: 450rpx;
+  font-size: 37rpx;
+  position: relative;
+  left: 50rpx;
+  word-wrap:break-word;
+  word-break:normal; 
+}

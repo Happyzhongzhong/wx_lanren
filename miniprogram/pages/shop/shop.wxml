@@ -1,0 +1,39 @@
+<view class="container">
+    <!-- <view class="wenzi1">推荐</view> -->
+    <text>\n</text>
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">   
+      <block wx:for="{{imgUrls}}" wx:key="">    
+        <swiper-item>      
+          <image src="{{item[0]}}" class="slide-image" width="355" height="150"/>    
+        </swiper-item>   
+      </block>     
+    </swiper> 
+    <text>\n</text>
+    <!-- <view class="wenzi2">
+      所有商品
+    </view> -->
+    <text>\n</text>
+    <view style="display: flex;flex-direction:column;">
+      <block wx:for="{{imgUrls}}" wx:key="">
+        <view class="shop_list" bindtap="gotoDetail" data-lockerid="{{item[3]}}">
+          <image src="{{item[0]}}" class="shangpinIm" />
+          <view class="shop_list_specification">
+            {{item[1]}}
+          </view>
+          <view class="shop_list_price">{{item[2]}}</view>
+          <text>\n</text>
+        </view> 
+        <text>\n</text>
+      </block>
+    </view>
+    <view class="wenzi2">已经到底了哦</view>
+    <text>\n</text>
+    <text>\n</text>
+    <text>\n</text>
+    <text>\n</text>
+    <view class="buy_table">
+      <view class="buy_table_item_select">商品列表</view>
+      <view class="buy_table_item" bindtap="gotoBuyPerson">个人中心</view>
+    </view>
+</view>
+

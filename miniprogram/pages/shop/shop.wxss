@@ -1,0 +1,56 @@
+/* miniprogram/pages/shop.wxss */
+.swiper {
+  height: 400rpx;
+  width: 80%;
+}
+.swiper image {
+  /* position: relative;
+  left: 80rpx; */
+  height: 100%;
+  width: 100%;
+  border-radius: 40rpx;
+}
+.wenzi1{
+  color: #666666;
+  /* border-bottom:1rpx dashed #FFAA33; */
+  width: 20%;
+  height: 25rpx;
+  text-align:center;
+ }
+.wenzi2{
+  color: #666666;
+  /* border-bottom:1rpx dashed #FFAA33; */
+  width: 40%;
+  height: 25rpx;
+  text-align:center;
+ }
+.shangpinIm{
+  width: 150rpx;
+  height: 130rpx;
+  position: relative;
+  left: 40rpx;
+  top:60rpx;
+  border-radius: 15px;
+}
+.shop_list{
+  background-color: white;
+  width: 600rpx;
+  height: 250rpx;
+  border-radius: 40rpx;
+  display: inline-block;
+}
+.shop_list_specification
+{
+  position: relative;
+  left: 230rpx;
+  bottom: 40rpx;
+  color: #666666;
+  font-size: 32rpx;
+}
+.shop_list_price{
+  position: relative;
+  left: 400rpx;
+  bottom: 90rpx;
+  color: #FF6600;
+  font-size: 38rpx;
+}

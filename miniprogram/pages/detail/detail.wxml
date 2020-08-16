@@ -1,0 +1,28 @@
+
+<view class="detail_container">
+  <view class="detail_wenzi1">商品详情</view>
+  <text>\n</text>
+  <text>\n</text>
+  <image src="{{goods[id][0]}}" class="detail_image">
+  </image>
+  <text>\n</text>
+  <text>\n</text>
+  <view class="detail_detail">
+    <text>\n</text>
+    <view class="detail_detail_wenzi1">{{'名称:'+' '+goods[id][1]}}</view>
+    <view class="detail_detail_wenzi1">{{'价格:'+'      '+'￥'+goods[id][2]}}</view>
+    <view class="detail_detail_wenzi1">商品来源：暂无</view>
+    <view class="detail_detail_wenzi2">“这里是简介，如果有对商品的兴趣，记得多多购买哦哦哦哦哦”</view>
+  </view>
+  <text>\n</text>
+  <text>\n</text>
+  <button style="width:560rpx" class="weui-btn" type="primary" bindtap="gotoBuy" data-lockerid="{{id}}">买他</button>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <view class="buy_table">
+    <view class="buy_table_item_select">商品列表</view>
+    <view class="buy_table_item" bindtap="gotoBuyPerson">个人中心</view>
+  </view>
+</view>

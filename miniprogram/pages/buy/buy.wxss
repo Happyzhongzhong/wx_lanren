@@ -1,0 +1,25 @@
+/* miniprogram/pages/buy.wxss */
+@import"../shop/shop.wxss";
+@import"../detail/detail.wxss";
+.buy_shangpinIm{
+  width: 120rpx;
+  height: 110rpx;
+  position: relative;
+  right: 170rpx;
+  top:50rpx;
+}
+.buy_shop_list_specification
+{
+  position: relative;
+  right: 15rpx;
+  bottom: 50rpx;
+  color: #666666;
+  font-size: 30rpx;
+}
+.buy_shop_list_price{
+  position: relative;
+  left: 100rpx;
+  bottom: 100rpx;
+  color: #FF6600;
+  font-size: 36rpx;
+}

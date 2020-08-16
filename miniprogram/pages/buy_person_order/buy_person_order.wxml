@@ -1,0 +1,16 @@
+<!--miniprogram/pages/buy_person_order/buy_person_order.wxml-->
+<view class="con">
+  <view class="detail_wenzi1">所有订单</view>
+</view>
+<view class="weui-cells__title">进行中</view>
+<view class="weui-cells">
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__hd">
+      <!-- <image src="../../images/shangpin1.jpg" alt="暂无图片" style="width:40rpx; height：50rpx;margin-right:5px;"></image> -->
+    </view>
+    <view class="weui-cell__bd">各种方便面 5元 于2020.06.30，8：00</view>
+    <view class="weui-cell__ft"></view>
+  </view>
+</view>
+<view class="weui-cells__title">已完成</view>
+<view class="weui-cells__title">已退回</view>

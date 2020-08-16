@@ -1,0 +1,19 @@
+<!--miniprogram/pages/welcome.wxml-->
+<view>
+  <view class="welcome_view_1">LanRen</view>
+  <view class="welcome_view_2">
+    <image class="welcome_image" src="../../images/welcome2.png">
+    </image>
+  </view>
+  <text>\n</text>
+  <view>
+    <button class="welcome-button" bindtap="gotoShop">我是懒人</button>
+    <text>\n</text>
+    <button class="welcome-button">我是商家</button>
+    <text>\n</text>
+    <button class="welcome-button">加入我们</button>
+  </view>
+  <text>\n</text>
+  <view class="welcome_view_1">WELCOME</view>
+</view>
+

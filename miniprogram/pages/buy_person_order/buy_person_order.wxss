@@ -1,0 +1,11 @@
+/* miniprogram/pages/buy_person_order/buy_person_order.wxss */
+.con{
+  text-align: center;
+}
+.detail_wenzi1{
+  font-size: 40rpx;
+  display: inline-block;
+  width: 250rpx;
+  font-family:‘Times New Roman’, Times, serif;
+  border-bottom: 5rpx solid #00AAAA;
+}

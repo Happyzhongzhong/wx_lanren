@@ -1,0 +1,36 @@
+<!--miniprogram/pages/buy_person.wxml-->
+<view class="buy_person_con">
+  <view class="bubbleTail"></view>
+  <view class="bubble">xxx用户，遇见你真开心--</view>
+
+  <view class="weui-cells__title">Hi~</view>
+  <view class="weui-cells">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">个人信息</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+  </view>
+  <view class="weui-cells" bindtap="gotoOrder">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">个人订单</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+  </view>
+  <view class="weui-cells">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd" style="color:red">退出登录</view>
+      <view class="weui-cell__ft"></view>
+    </view>
+  </view>
+  <text>\n</text>
+  <text>\n</text>
+  <image src="../../images/wenzi_lan.jpg" style="height:300rpx;width:300rpx"></image>
+
+  
+
+  <view class="buy_table">
+    <view class="buy_table_item" bindtap="gotoShop">商品列表</view>
+    <view class="buy_table_item_select" bindtap="gotoBuyPerson">个人中心</view>
+  </view>
+
+</view>
