@@ -1,0 +1,53 @@
+<!--pages/goods/goods.wxml-->
+
+<!--轮播图-->
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular="true" autoplay interval="4000">
+    <swiper-item><image src="/images/banner1.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner1.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner1.jpg"/></swiper-item> 
+  </swiper>
+</view>
+
+<!--已上架商品预览-->
+<view class="selling">
+  <view class="container">
+    <view class="pubTile">
+      <view class="txt">已上架</view>
+      <navigator class="more" url="/pages/sell_more/sell_more">更多 ></navigator>
+    </view>
+  </view>
+  <view class="seMain">
+    <navigator class="box" url="/pages/goods/goods" wx:for="{{4}}">
+      <image class="pic" src="/images/selling.jpg"></image>
+      <view class="ceng">
+        <view class="tit">商品名称</view>
+        <view class="line"></view>
+        <view class="des">商品描述</view>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+
+<!--商家动态预览-->
+<view class="dynamic">
+  <view class="container">
+    <view class="pubTile">
+      <view class="txt">商家动态</view>
+      <navigator class="more" url="/pages/dyn_more/dyn_more">更多 ></navigator>
+    </view>
+
+    <view class="dyMain">
+      <navigator class="dyItem" url="/pages/dynamic/dynamic" wx:for="{{4}}">
+        <view class="pic">
+          <image src="/images/selling.jpg"></image>
+        </view>
+        <view class="txt">
+          <view class="title">标题</view>
+          <view class="info">内容摘要</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

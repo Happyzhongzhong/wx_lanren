@@ -1,0 +1,16 @@
+.wkMain{ padding:40rpx 0; box-sizing: border-box; background:#f1f1f1; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.wkMain::after{ content: ""; display: block;  width:360rpx;}
+
+.wkBox{ width:360rpx; height: 400rpx; border-radius: 8rpx; overflow: hidden; box-shadow: 0 8rpx 15rpx rgba(0,0,0,0.08);margin-bottom:20rpx;}
+.wkBoxPic{ width:360rpx; height: 234rpx; display: block;}
+.wkBoxTxt{width:100%; height: 166rpx; background: #fff; padding:15rpx; box-sizing: border-box;}
+.wkBoxTxt .title{ font-size:28rpx; height: 100rpx; line-height: 1.5em; text-align: justify;}
+.wkBoxTxt .info{ display: flex; justify-content: space-between;font-size:23rpx; color:#666; align-items: center;}
+
+.wkBoxTxt .look{ display: flex; align-items: center;}
+.wkBoxTxt .lookpic{ width:30rpx; height: 30rpx; margin-right: 5rpx;}
+
+
+.loaded{ width:100%; background:#f1f1f1;padding-bottom:30rpx;}
+.loaded .loadBtn{ width:750rpx; background:none; font-size:28rpx; color:#888}
+.loaded .loadBtn::after{ border:none;}

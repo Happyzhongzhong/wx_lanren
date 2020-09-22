@@ -1,0 +1,11 @@
+.dynamic{ padding: 90rpx 0 70rpx;}
+.dyItem{ display: flex; padding: 15rpx 0; border: 1rpx dashed #f4f4f4; justify-content: space-between;}
+.dyItem .pic{width: 230rpx; height: 150rpx;}
+.dyItem .pic image{width: 100%; height: 100%;}
+.dyItem .txt{width: 440rpx; display: flex; flex-direction: column; justify-content: space-between;}
+.dyItem .title{ font-size: 34rpx;}
+.dyItem .info{font-size: 26rpx; color: #888;}
+
+.loaded{ width:100%; background:#f1f1f1;padding-bottom:30rpx;}
+.loaded .loadBtn{ width:750rpx; background:none; font-size:28rpx; color:#888}
+.loaded .loadBtn::after{ border:none;}

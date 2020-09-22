@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/sell_more/sell_more",
+    "pages/dyn_more/dyn_more",
+    "pages/goods/goods",
+    "pages/dynamic/dynamic",
+    "pages/order/order"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "懒人宅急送",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home-h.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "个人中心",
+      "iconPath":"images/my.png",
+      "selectedIconPath":"images/my-h.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

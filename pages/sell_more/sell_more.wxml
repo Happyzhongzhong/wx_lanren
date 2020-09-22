@@ -1,0 +1,23 @@
+<view class="wkMain" style="min-height:395px">
+
+  <navigator class="wkBox" url="/pages/goods/goods" wx:for="{{10}}">    
+    <image class="wkBoxPic" src="/images/banner1.jpg"></image>    
+    <view class="wkBoxTxt">
+      <view class="title">商品名称</view>
+      <view class="info">
+        <view class="classname">商品简介</view>
+        <view class="look">
+          <image src="/images/look.png" class="lookpic"/>
+          <text>已售出：</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<view class="loaded">
+    <button class="loadBtn" loading="{{onLoaded}}">
+      <block wx:if="{{onLoaded}}">数据加载中...</block> 
+      <block wx:else>已经到底了~~</block>
+    </button>
+</view>

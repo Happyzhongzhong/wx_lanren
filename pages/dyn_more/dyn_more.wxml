@@ -1,0 +1,19 @@
+<view class="dyMain">
+      <navigator class="dyItem" url="/pages/dynamic/dynamic" wx:for="{{8}}">
+        <view class="pic">
+          <image src="/images/selling.jpg"></image>
+        </view>
+        <view class="txt">
+          <view class="title">标题</view>
+          <view class="info">内容摘要</view>
+        </view>
+      </navigator>
+</view>
+
+
+<view class="loaded">
+  <button class="loadBtn" loading="{{onLoaded}}">
+    <block wx:if="{{onLoaded}}">数据加载中...</block> 
+    <block wx:else>已经到底了~~</block>
+  </button>
+</view>
